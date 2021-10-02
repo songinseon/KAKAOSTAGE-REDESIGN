@@ -149,6 +149,12 @@ header {
   top:50%;
 }
 
+/* 배경카카오이미지 */
+.bg-kakao {
+  top:45%;
+  z-index: -1;
+}
+
 /* 신규연재 */
 .section-3 {
   height: 650px;
@@ -208,4 +214,17 @@ header {
 .section-4_text {
   top:55%;
   left:12%;
+}
+
+/* 푸터 */
+.footer-1 {
+  top:57%;
+  z-index:1;
+  left:62.8%;
+}
+
+.footer-2 {
+  top:57%;
+  z-index:1;
+  left:70%;
 }

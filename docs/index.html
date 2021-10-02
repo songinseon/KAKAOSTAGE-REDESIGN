@@ -111,6 +111,10 @@
         </div>
       </section>
 
+      <div class="absolute bg-kakao">
+        <img src="./img/bg-kakao.svg" alt="">
+      </div>
+
       <!-- 신규연재 -->
       <section class="section-3 w-full">
         <div class="container mx-auto h-full relative">
@@ -144,8 +148,14 @@
 
       <div class="top-bar-line"></div>
 
-      <footer class="mt-16">
+      <footer class="mt-16 relative h-60">
         <img src="./img/footer.svg" alt="">
+        <a href="#" class="footer-1 absolute">
+          <img src="./img/footer-1.svg" alt="">
+        </a>
+        <a href="#" class="footer-2 absolute">
+          <img src="./img/footer-2.svg" alt="">
+        </a>
       </footer>
 
 

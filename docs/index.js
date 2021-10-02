@@ -67,6 +67,20 @@ gsap.fromTo('.nav-menu', {
   duration: 1
 });
 
+gsap.fromTo('.bg-kakao', {
+  opacity: 0,
+  x: -40,
+}, {
+  opacity: 1,
+  x: 0,
+  scrollTrigger: {
+    trigger: '.nav-menu',
+    start: '-10% 0%',
+    end: '100% 30%'
+  },
+  duration: 1
+});
+
 gsap.fromTo('.text-1', {
   opacity: 0,
   y: 20,
