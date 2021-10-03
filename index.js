@@ -13,9 +13,19 @@ function Intro_AnimationInit() {
 
 Intro_AnimationInit();
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".nav-menu .mySwiper", {
   slidesPerView: 4.7,
   spaceBetween: 60,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+var swiper = new Swiper(".sub-like .mySwiper", {
+  slidesPerView: 5,
+  spaceBetween: 30,
   loop: true,
   navigation: {
     nextEl: ".swiper-button-next",
